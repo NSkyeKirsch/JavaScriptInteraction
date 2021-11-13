@@ -3,6 +3,7 @@
 <head>
 <meta charset=utf-8 />
 <title>Calculator</title>
+<link rel="stylesheet" href="style.css">
 <script type="text/javascript" src="calculator.js"></script>
 </head>
 <body>
@@ -10,17 +11,22 @@
   <label>Half this number...
     <input type="number" id="half-input">
   </label>
-  <button id="half-button" onclick="halfNumber()">Calculate</button>
+  <button class="button" id="half-button" onclick="halfNumber()">Calculate</button>
   <br><br>
 
+  <!-- <p id="log">Input Type: </p> -->
+<div class="fortuneContainer">
   <label>Give me your name and I'll give you a fortune...
-    <input id="fortune-input">
+    <input type="text" id="fortune-input">
   </label>
-  <button id="fortune-button">Get Fortune</button>
+  <button class="button" id="fortune-button">Get Fortune</button>
   <br><br>
   <div id="fortune-output"></div>
+</div>
+
 
   <p id="fortuneResult">this is the fortune...</p>
+
 
 </body>
 </html>
