@@ -8,24 +8,36 @@
 </head>
 <body>
 
-  <label>Half this number...
-    <input type="number" id="half-input">
-  </label>
-  <button class="button" id="half-button" onclick="halfNumber()">Calculate</button>
-  <br><br>
-
-  <!-- <p id="log">Input Type: </p> -->
-<div class="fortuneContainer">
-  <label>Give me your name and I'll give you a fortune...
-    <input type="text" id="fortune-input">
-  </label>
-  <button class="button" id="fortune-button">Get Fortune</button>
-  <br><br>
-  <div id="fortune-output"></div>
+<div class="header">
+  <h1>Fortune and Calculator</h1>
 </div>
 
 
+<div class="pageContent">
+  <div class="calculateContainer">
+    <label>Half this number...
+      <input type="number" id="half-input">
+    </label>
+    <button class="button" id="half-button" onclick="halfNumber()">Calculate</button>
+    <br><br>
+  </div>
+
+
+    <!-- <p id="log">Input Type: </p> -->
+  <div class="fortuneContainer">
+    <label>Give me your name and I'll give you a fortune...
+      <input type="text" id="fortune-input">
+    </label>
+    <button class="button" id="fortune-button">Get Fortune</button>
+    <br><br>
+  </div>
+</div>
+
+
+<div class="resultContainer">
   <p id="fortuneResult">this is the fortune...</p>
+</div>
+
 
 
 </body>
